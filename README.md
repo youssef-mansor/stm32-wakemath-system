@@ -31,6 +31,6 @@ and requires the user to solve a **math challenge** on a **Qapass LCD** using th
 🚧 **Early development — hardware and logic not yet finalized.**
 
 ## License
-MIT (or any license you prefer)
+MIT
 
 
