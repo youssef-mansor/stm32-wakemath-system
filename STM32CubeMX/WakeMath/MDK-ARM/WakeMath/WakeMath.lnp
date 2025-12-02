@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp --branchpatch=sdcomp-29491-629360
+"wakemath\startup_stm32l432xx.o"
+"wakemath\main.o"
+"wakemath\stm32l4xx_it.o"
+"wakemath\stm32l4xx_hal_msp.o"
+"wakemath\stm32l4xx_hal_tim.o"
+"wakemath\stm32l4xx_hal_tim_ex.o"
+"wakemath\stm32l4xx_hal_uart.o"
+"wakemath\stm32l4xx_hal_uart_ex.o"
+"wakemath\stm32l4xx_hal.o"
+"wakemath\stm32l4xx_hal_rcc.o"
+"wakemath\stm32l4xx_hal_rcc_ex.o"
+"wakemath\stm32l4xx_hal_flash.o"
+"wakemath\stm32l4xx_hal_flash_ex.o"
+"wakemath\stm32l4xx_hal_flash_ramfunc.o"
+"wakemath\stm32l4xx_hal_gpio.o"
+"wakemath\stm32l4xx_hal_dma.o"
+"wakemath\stm32l4xx_hal_dma_ex.o"
+"wakemath\stm32l4xx_hal_pwr.o"
+"wakemath\stm32l4xx_hal_pwr_ex.o"
+"wakemath\stm32l4xx_hal_cortex.o"
+"wakemath\stm32l4xx_hal_exti.o"
+"wakemath\system_stm32l4xx.o"
+--strict --scatter "WakeMath\WakeMath.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "WakeMath.map" -o WakeMath\WakeMath.axf
