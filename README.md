@@ -28,11 +28,11 @@ and requires the user to solve a **math challenge** on a **Qapass LCD** using th
 - Alarm logic state machine  
 
 ## Status
-**Motion Detection & inactivity timer:** The PIR sensor is functional but the inactivity timer is yet to be implemented
-**Math Problem Generator:** Fully functional
-**Keypad input handler:** Fully functional
-**LCD display interface:** Fully functional
-**Alarm logic state machine:** Unimplemented
+- **Motion Detection & inactivity timer:** The PIR sensor is functional but the inactivity timer is yet to be implemented
+- **Math Problem Generator:** Fully functional
+- **Keypad input handler:** Fully functional
+- **LCD display interface:** Fully functional
+- **Alarm logic state machine:** Unimplemented
 
 ## License
 MIT
