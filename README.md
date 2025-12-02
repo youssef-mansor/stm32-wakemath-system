@@ -14,9 +14,9 @@ and requires the user to solve a **math challenge** on a **Qapass LCD** using th
 
 ## Hardware Used
 - STM32 Nucleo L432KC
-- PIR Motion Sensor
+- HC-SR501 PIR Motion Sensor
 - Passive or Active Buzzer
-- Qapass 1602/2004 LCD (I2C or parallel)
+- Qapass 1602 LCD (I2C)
 - Digilent Pmod KYPD (4×4 matrix keypad)
 - Jumper wires & breadboard
 
@@ -28,7 +28,11 @@ and requires the user to solve a **math challenge** on a **Qapass LCD** using th
 - Alarm logic state machine  
 
 ## Status
-🚧 **Early development — hardware and logic not yet finalized.**
+**Motion Detection & inactivity timer:** The PIR sensor is functional but the inactivity timer is yet to be implemented
+**Math Problem Generator:** Fully functional
+**Keypad input handler:** Fully functional
+**LCD display interface:** Fully functional
+**Alarm logic state machine:** Unimplemented
 
 ## License
 MIT
